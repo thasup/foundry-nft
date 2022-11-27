@@ -28,6 +28,7 @@ forge test -vv
 ```
 
 **Running a Foundry Script**
+```
 source .env
 forge script script/Deploy.sol:SpacebearScript --broadcast --verify --rpc-url ${GOERLI_RPC_URL}
 ```
